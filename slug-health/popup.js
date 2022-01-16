@@ -18,3 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }, false);
   }, false);
+
+
+function myFunction() {
+    var x = document.getElementById("mySelect").options.length;
+    document.getElementById("demo").innerHTML = "Found " + x + " options in the list.";
+}
